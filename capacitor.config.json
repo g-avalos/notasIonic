@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "notas",
+  "appId": "com.ifts11.loginapp",
+  "appName": "login-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

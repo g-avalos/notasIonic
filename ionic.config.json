@@ -1,7 +1,8 @@
 {
   "name": "notas",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      IFTS 11
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="user$ | async as user">
+  <ion-row>
+    <ion-col>
+      <h3>Gracias por registrarse!!!</h3>
+      <p class="text-center">Se le envio un mail de confirmacion a tu correo {{ user.email }} </p>
+      <p class="text-center">Por favor confirme el email para verificar su cuenta</p>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-button (click)="reenviar()" expand="block">Reenviar email</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button  [routerLink]="'/login'" expand="block">Volver</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
+
+

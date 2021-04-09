@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+    <ion-item>
+      <ion-input placeholder="Email" #email></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="DNI" #dni></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Password" type="password" #password></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="onRegister(email, dni, password)" expand="block">Registrar</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <p class="ion-text-end">
+          <a href="/login">Ya tenes cuenta?</a>
+        </p>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558843509728",
+    "firebase_url": "https://login-5c674.firebaseio.com",
+    "project_id": "login-5c674",
+    "storage_bucket": "login-5c674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558843509728:android:a7aa7222f5358ec1c1c985",
+        "android_client_info": {
+          "package_name": "com.ifts11.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558843509728-b217tv9agcltpj8ehlalqg04ih2vb0ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKFJxsDBlMGszGmhotpqylXdTas4QlLaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558843509728-b217tv9agcltpj8ehlalqg04ih2vb0ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
